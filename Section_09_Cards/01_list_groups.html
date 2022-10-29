@@ -10,117 +10,70 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
 
-    <title>Cards Basics</title>
+    <title>List Groups</title>
 </head>
 
 <body>
-    <h1 class="display-3 text-center">Cards Basics</h1>
+    <h1 class="display-3 text-center">List Groups</h1>
     <div class="container">
-        <div class="row">
-            <div class="col-6 offset-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Some Title</h5>
-                        <h6 class="card-subtitle text-muted mb-2">Some Subtitle</h6>
-                        <p class="card-text">
-                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore voluptatibus maiores aliquam, accusamus adipisci ipsum
-                            veniam voluptatum veritatis deserunt dignissimos?
-                        </p>
-                        <a href="" class="card-link">First Link</a>
-                        <a href="" class="card-link">Second Link</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 mt-4">
-                <div class="card">
-                    <div class="card-header">Card Header</div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">First Thing</li>
-                        <li class="list-group-item">First Thing</li>
-                        <li class="list-group-item">First Thing</li>
-                    </ul>
-                    <div class="card-footer">Card Footer</div>
-                </div>
-            </div>
-            <div class="col-6 mt-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Some Title</h5>
-                        <h6 class="card-subtitle text-muted mb-2">Some Subtitle</h6>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore voluptatibus maiores aliquam, accusamus adipisci ipsum veniam
-                            voluptatum veritatis deserunt dignissimos?
-                        </p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">First Thing</li>
-                        <li class="list-group-item">Second Thing</li>
-                        <li class="list-group-item">Third Thing</li>
-                    </ul>
-                    <div class="card-body">
-                        <a href="" class="card-link">Some Link</a>
-                        <a href="" class="card-link">Another Link</a>
-                    </div>
-                </div>
-            </div>
+        <ul class="list-group">
+            <li class="list-group-item active">First Thing</li>
+            <li class="list-group-item disabled">Second Thing</li>
+            <li class="list-group-item">Third Thing</li>
+        </ul>
+    <h3>List Group Actions</h3>
+        <div class="list-group">
+            <a href="" class="list-group-item list-group-item-action">First Thing</a>
+            <a href="" class="list-group-item list-group-item-action list-group-item-danger">Second Thing</a>
+            <a href="" class="list-group-item list-group-item-action">Third Thing</a>
         </div>
-        <h3 class="text-center display-4">Card Colors</h3>
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="card bg-success text-white mb-3">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                        <h5 class="card-title">Card Title</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex obcaecati beatae ad pariatur sequi nam excepturi ducimus illo vitae accusamus.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="card bg-info text-white mb-3">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                        <h5 class="card-title">Card Title</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex obcaecati beatae ad pariatur sequi nam excepturi ducimus illo vitae accusamus.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="card bg-danger text-white mb-3">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                        <h5 class="card-title">Card Title</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex obcaecati beatae ad pariatur sequi nam excepturi ducimus illo vitae accusamus.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="card border-primary mb-3">
-                    <div class="card-header">Header</div>
-                    <div class="card-body text-primary">
-                        <h5 class="card-title">Card Title</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex obcaecati beatae ad pariatur sequi nam excepturi ducimus illo vitae accusamus.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="card border-warning mb-3">
-                    <div class="card-header">Header</div>
-                    <div class="card-body text-warning">
-                        <h5 class="card-title">Card Title</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex obcaecati beatae ad pariatur sequi nam excepturi ducimus illo vitae accusamus.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="card border-secondary mb-3">
-                    <div class="card-header">Header</div>
-                    <div class="card-body text-secondary">
-                        <h5 class="card-title">Card Title</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex obcaecati beatae ad pariatur sequi nam excepturi ducimus illo vitae accusamus.</p>
-                    </div>
-                </div>
-            </div>
+    <h3>List Group Flush</h3>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">First Thing</li>
+        <li class="list-group-item list-group-item-warning">Second Thing</li>
+        <li class="list-group-item list-group-item-info">Third Thing</li>
+    </ul>
+    <h3>Flex Utility</h3>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item d-flex justify-content-between">
+            Hello World<span class="text-muted">2018</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+            Goodbye World<span class="text-muted">2019</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+            Hello Again World<span class="text-muted">2020</span>
+        </li>
+    </ul>
+    <h3>List Group + Grid</h3>
+    <div class="row">
+        <div class="col-sm-6 mt-4">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex justify-content-between">
+                    Hello World<span class="text-muted">2018</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    Goodbye World<span class="text-muted">2019</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    Hello Again World<span class="text-muted">2020</span>
+                </li>
+            </ul>
         </div>
+        <div class="col-sm-6 mt-4">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex justify-content-between">
+                    Hello World<span class="text-muted">2018</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    Goodbye World<span class="text-muted">2019</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    Hello Again World<span class="text-muted">2020</span>
+                </li>
+            </ul>
+        </div>
+    </div>
     </div>
 
         
